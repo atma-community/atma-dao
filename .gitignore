@@ -1,0 +1,33 @@
+# ── Aiken (on-chain) ──────────────────────────────────────────
+# Compilation artifacts
+onchain/artifacts/
+# Aiken's project working directory
+onchain/build/
+# Aiken's default documentation export
+onchain/docs/
+
+# ── Off-chain (Node / TypeScript) ─────────────────────────────
+offchain/node_modules/
+offchain/dist/
+offchain/build/
+
+# ── Secrets & local configuration ─────────────────────────────
+# config.json holds the admin wallet seed phrase and Blockfrost key.
+# Copy config.example.json to config.json and fill in your own values.
+offchain/config.json
+.env
+.env.*
+!.env.example
+
+# Protocol parameters snapshot (regenerated locally)
+offchain/pp.json
+
+# ── Editor / tooling local state ──────────────────────────────
+.claude/
+.direnv/
+.envrc
+.DS_Store
+
+# ── Local scratch notes ───────────────────────────────────────
+notes.md
+onchain/notes

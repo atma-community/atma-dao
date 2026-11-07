@@ -1,0 +1,7 @@
+{
+  "setup": {
+    "adminSeed": "your twenty four word cardano wallet mnemonic seed phrase goes right here example words only",
+    "blockfrostKey": "preview_or_preprod_blockfrost_project_id",
+    "network": "Preview"
+  }
+}
